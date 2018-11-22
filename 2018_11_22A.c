@@ -10,6 +10,8 @@ int main() {
 
 	a1();
 
+	a2();
+
 	system("pause");
 	return 0;
 }
@@ -17,4 +19,13 @@ int a1() {
 	char c1 = '1';
 	printf("int ´æ´¢´óĞ¡ : %lu \n", sizeof(int));
 	return 2;
+}
+int a2() {
+	float f, x = 3.6, y = 5.2;
+	int i = 4, a, b;
+	a = x + y;
+	b = (int)(x + y);
+	f = 10 / i;
+	printf("a=%d,b=%d,f=%f,x=%f\n", a, b, f, x);
+	return 3;
 }
